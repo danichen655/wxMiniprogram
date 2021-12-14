@@ -1,0 +1,11 @@
+<!--pages/editPuntos/editPuntos.wxml
+<button bindtap="delCount" data-operation="{{1}}">Sumar puntos</button>
+<button bindtap="handletap" data-operation="{{-1}}">Restar puntos</button>
+<input type="text" bindinput="handleInput" ></input>
+<view wx:if="{{add>0}}" >Tu punto final a añadir: {{puntos+num}}</view>
+<view wx:else="{{add<0}}">Tu punto final a añadir: {{puntos-num}}</view> -->
+
+<button bindtap="addCount" >Sumar puntos</button>
+<button bindtap="delCount" >Restar puntos</button>
+<input type="number" bindinput = "handleText" value="{{num}}" ></input>
+<view>Tus puntos: {{puntos}}</view>

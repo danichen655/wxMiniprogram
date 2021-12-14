@@ -1,0 +1,18 @@
+<!--pages/detail/detail.wxml-->
+<view class="user">
+    <view class="user-info">
+        <image src = "{{userPhoto}}"></image>
+        <text>{{nickName}}</text>
+       
+    </view>
+
+    <view class = "user-list-item">
+        <text >Mis puntos: {{puntos}}</text>
+        
+    
+    </view>
+    <view class = "user-list-item">
+        <text>Telefono: {{phoneNumber}}</text>
+    </view>
+
+</view>

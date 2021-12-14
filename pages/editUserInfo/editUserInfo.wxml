@@ -1,0 +1,24 @@
+<!--pages/edituseInfo/editUserInfo.wxml-->
+<view class = "editUserInfo">
+    <navigator url="./name/name" open-type="navigate">
+            <view class="editUserInfo-list-item">
+                <text> Modificar Nombre </text>
+                <text class="iconfont iconarrowRight">>></text>
+            </view>
+    </navigator>
+
+    <navigator url="./head/head" open-type="navigate">
+            <view class="editUserInfo-list-item">
+                <text> Modificar Foto </text>
+                <text class="iconfont iconarrowRight">>></text>
+            </view>
+    </navigator>
+
+    <navigator url="./phone/phone" open-type="navigate">
+            <view class="editUserInfo-list-item">
+                <text> Anhadir telefono </text>
+                <text class="iconfont iconarrowRight">>></text>
+            </view>
+    </navigator>
+
+</view>
